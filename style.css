@@ -1,20 +1,3 @@
-/*
-
-    COLORS
-
-    Pink   : #ffdddd
-    Purple : #ddddff
-    Green  : #ddffdd
-    Blue   : #ddffff
-    Yellow : #ffffdd
-
-    BREAKPOINTS
-
-    600px
-    1100px
-
-*/
-
 body{
     font-family: Palatino, Times, serif;
     background-color: #ddffdd;
@@ -144,7 +127,16 @@ footer a{
     display: flex;
   }
 
-  #main_content div{
+  section div p{
+    width: 740px;
+  }
 
+  #main_content div{
+    padding-right: 40px;
+  }
+
+  #sidebar_content{
+    display: flex;
+    justify-content: space-around;
   }
 }
